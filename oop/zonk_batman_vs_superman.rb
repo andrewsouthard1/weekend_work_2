@@ -26,7 +26,6 @@ class Superhero
   end
 
   def hit(opponent)
-    p "attack: #{attack}"
     if opponent.hitpoints < 1
       opponent.alive = false 
     else
