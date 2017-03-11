@@ -14,7 +14,7 @@ def split_array(array, array_size)
     end
   end
   output_array
-  # I had to hard code below to visualize it
+  # KENNY: I had to hard code below to visualize it, I was incrementing count in both the if and else and realized that i didn't have to increment count in the else
   # size_array << array[0]
   # size_array << array[1]
   # output_array << size_array
